@@ -4,7 +4,7 @@
   "description": "Baccarat MVP Root for Deployment",
   "scripts": {
     "install-all": "cd server && npm install && cd ../client && npm install",
-    "build": "cd client && npm run build",
+    "build": "npm run install-all && cd client && npm run build",
     "start": "cd server && npm start"
   },
   "engines": {
