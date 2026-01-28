@@ -1,0 +1,13 @@
+{
+  "name": "baccarat-mvp-root",
+  "version": "1.0.0",
+  "description": "Baccarat MVP Root for Deployment",
+  "scripts": {
+    "install-all": "cd server && npm install && cd ../client && npm install",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
